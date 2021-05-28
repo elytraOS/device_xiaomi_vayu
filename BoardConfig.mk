@@ -49,6 +49,9 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
+# b/189477034: Bypass build time check on uses_libs until vendor fixes all their apps
+RELAX_USES_LIBRARY_CHECK := true
+
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
