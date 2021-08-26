@@ -220,6 +220,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/input/idc/uinput-goodix.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.idc
 
 # Init scripts
+PRODUCT_PACKAGES += \
+    init.qcom.power.rc
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.rc \
     $(LOCAL_PATH)/rootdir/etc/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
