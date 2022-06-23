@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_vayu.mk
+    $(LOCAL_DIR)/elytra_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_vayu-user \
-    awaken_vayu-userdebug \
-    awaken_vayu-eng
+    elytra_vayu-user \
+    elytra_vayu-userdebug \
+    elytra_vayu-eng
